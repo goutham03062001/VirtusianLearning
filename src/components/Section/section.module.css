@@ -1,0 +1,106 @@
+
+
+.section_wrapper{
+    width:100vw;
+    height:50vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+.section_left{
+    width:20%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section_left_top{
+    width:100%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    justify-content: space-evenly;
+}
+.section_left_bottom{
+    width:100%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    background-image:url("./Assets/FirstBackgroundImage.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.btn{
+    width:100px;
+    height:40px;
+    background-color:#2874f0;
+    color:white;
+    border:none;
+    border-radius:10px;
+    
+}
+
+.section_right{
+    width:80%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Image_container{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Image_container:hover{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    outline:none;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.photo_style{
+
+    width:290px;
+    height:500px;
+    background: red;
+}
+.top{
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom{
+    height:40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.pic{
+    width:80%;
+    height:90%;
+}
+
+.pic:hover{
+    width:78%;
+    height:91%;
+    box-shadow: -5px 5px 5px white;
+}
+.productDisc{
+    color: green;
+}
